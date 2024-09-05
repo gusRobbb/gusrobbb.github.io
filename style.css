@@ -1,16 +1,62 @@
-h2{
-    color: rgb(85, 7, 7);
-}
 
-ul{
-    color: lightyellow;
-}
 
 :backdrop{
     color: blue;
 }
 
-body {
-    background-color: rgb(182, 182, 182);
-    color: rgb(194, 143, 3);
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(2, 196, 89);
+    padding: 10px;
+}
+
+nav{
+    background: rgb(239, 80, 41);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+#name {
+    color: red;
+}
+
+
+.two{
+    background-color: cadetblue;
+}
+
+#nav-ul {
+    list-style-image: none;
+}
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+
+#interests {
+    border: 4px rgb(54, 54, 54) ridge;
+    padding: 8px;
+}
+
+main {
+    background: rgb(245, 238, 219);
+    display: flex;
+}
+
+.list{
+    color: rgb(0, 238, 255);
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex: 1;
+    margin: 0;
 }
