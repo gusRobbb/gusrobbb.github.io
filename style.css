@@ -8,11 +8,14 @@ body{
     color: rgb(0, 0, 0);
     background-color: rgb(2, 196, 89);
     padding: 10px;
+    border-radius: 50px;
 }
 
 nav{
+    border-radius: 50px;
     background: rgb(239, 80, 41);
     margin: 0 auto;
+    margin-bottom: 20px;
     display: flex;
     padding: 10px;
 }
@@ -27,29 +30,36 @@ nav{
 }
 
 #nav-ul {
+    border-radius: 50px;
     list-style-image: none;
 }
 .nav-li {
+    border-radius: 50px;
     display: inline-block;
     padding: 0 10px;
 }
 
 #all-contents {
+    border-radius: 50px;
     max-width: 800px;
     margin: auto;
 }
 
 #interests {
+    border-radius: 50px;
     border: 4px rgb(54, 54, 54) ridge;
     padding: 8px;
 }
 
 main {
+    border-radius: 50px;
+    border-radius: 50px;
     background: rgb(245, 238, 219);
     display: flex;
 }
 
 .list{
+    border-radius: 50px;
     color: rgb(0, 238, 255);
 }
 
