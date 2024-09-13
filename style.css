@@ -93,6 +93,11 @@ h1{
     background: #eee;
 }
 
-#portfolio a {
+#portfolio {
     text-decoration: none;
-    color: #4;
+    color: green;
+}
+
+#portfolios {
+    padding-left: 5;
+}
