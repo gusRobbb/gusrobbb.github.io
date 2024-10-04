@@ -56,7 +56,6 @@ createPlatform(600,200,400,10)
 createCollectable("diamond",1000,400,2,true)
 createCollectable("database",600,0,1,true)
 createCollectable("max",300,710,0.1,true)
-createCollectable("grace",500,500,500,true)
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
