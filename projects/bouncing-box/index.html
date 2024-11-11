@@ -66,8 +66,10 @@
 			//////////////////////////////////////////////////////////////////
 
 			// TODO 2 - Variable declarations 
-
-
+			var positionX = 0;
+			var direction = 1
+			var speed = 10
+			var number = 0
 
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -75,6 +77,15 @@
 			turn it around! 
 			*/
 			function update() {
+				positionX += speed * direction
+				moveBoxTo(positionX)
+				box.text(number)
+				if (positionX >= 1850) {
+					direction *= -1
+				}
+				if (positionX <= 0) {
+					direction *= -1
+				}
 
 
 			};
@@ -85,6 +96,9 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
+				direction *= -1
+				speed += 2
+				number += 1
 
 
 			};
